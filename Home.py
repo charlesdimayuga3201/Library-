@@ -6,7 +6,8 @@ from delete import *
 from issue import * 
 from Return import *
 from view import *
- 
+
+#connect sql
 db = mysql.connector.connect(host ="localhost",user = "root",password ="",database='db')
 cursor = db.cursor()
  
